@@ -14,7 +14,7 @@ git clone https://github.com/mykle1/MMM-SeawayLockTraffic into the ~/MagicMirror
 
 <h2>Configuration</h2> 
 
-`{
+```{
     module: 'MMM-SeawayLockTraffic',
     position: 'bottom_right',
     config: {
@@ -43,4 +43,4 @@ git clone https://github.com/mykle1/MMM-SeawayLockTraffic into the ~/MagicMirror
                 maxRows: 10 //maximum number of  ships to display
     }
 },
-`
+```
