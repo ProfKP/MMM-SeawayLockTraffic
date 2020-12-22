@@ -7,13 +7,14 @@ I am not a programmer or a web designer. This module should be considered a "wor
 
 This is my first attempt at a module and it's early to put it out for the public but the Seaway season ends shortly so after the end of Decemember very little testing can be done.
 
+![sample output](/SeawayTraffic.JPG)
 
-Install it
+<h2> Installation </h2>
 git clone https://github.com/mykle1/MMM-SeawayLockTraffic into the ~/MagicMirror/modules directory.
 
-Configuration 
+<h2>Configuration</h2> 
 
-{
+`{
     module: 'MMM-SeawayLockTraffic',
     position: 'bottom_right',
     config: {
@@ -42,5 +43,4 @@ Configuration
                 maxRows: 10 //maximum number of  ships to display
     }
 },
-
-
+`
