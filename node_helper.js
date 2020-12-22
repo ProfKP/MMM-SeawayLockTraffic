@@ -47,7 +47,7 @@ module.exports = NodeHelper.create({
     getTraffic: function(url) {
         var self = this;
         console.log("node_helper recd " + url);
-        var data = 'ORDER=5260&hiddenName=';
+        var data = 'ORDER=' + url + '&hiddenName=';
         var options = {
             host: 'www.glslw-glvm.com',
             port: 80,
